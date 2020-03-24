@@ -51,13 +51,13 @@
 
 > 时间：2020.03.23 | 阅读完成 《Practical Vim》第一部分 模式 - 命令模式
 
-命令模式的技巧:
+命令模式的技巧：
 
-- 常用的 ex 命令 (`[range] normal {command}`, `[range]substitute/{pattern}/{string}/flag`, `[range]gobal/{pattern}/[cmd]`) 分别代表 (`normal 模式执行命令`, `替换替换`，`匹配内容执行命令`) 
-- range 范围选择可以是 `1, 2`, `1, +1`, `'<,'>`  
+- 常用的 ex 命令 (`[range] normal {command}`, `[range]substitute/{pattern}/{string}/flag`, `[range]gobal/{pattern}/[cmd]`) 分别代表 (`normal 模式执行命令`, `替换替换`，`匹配内容执行命令`)
+- range 范围选择可以是 `1, 2`, `1, +1`, `'<,'>`
 - 使用 `shell` 进入 shell 模式
 - 使用 `!` 执行 shell 命令
-- 使用 `read !{cmd}` 输入到当前 buffer 
+- 使用 `read !{cmd}` 输入到当前 buffer
 - 使用 `[range]write !{cmd}` 使用指定行，作为 {cmd} 的参数
 
 ## Day 6
